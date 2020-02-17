@@ -193,7 +193,7 @@ section{
 .content{
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 4rem 2rem 2rem 2rem;
 }
 
 .content#home .profile-box{
