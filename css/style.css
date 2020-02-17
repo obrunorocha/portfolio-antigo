@@ -277,7 +277,7 @@ section{
 }
 
 .daymode-barra{
-    background-color: #f0f0f3;
+    background-color: #f0f0f3 !important;
     color: #2F363D;
 }
 
