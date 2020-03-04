@@ -139,6 +139,7 @@ input:checked[type="checkbox"]:before{
     background-image: url('../images/sun.svg');
     background-size: cover;
     left: 40px;
+    z-index: 1;
 }
 
 .menuToggle, .hamburger{
