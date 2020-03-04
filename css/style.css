@@ -426,8 +426,8 @@ section{
         display: inline-flex;
         align-items: center;
         position: relative;
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         cursor: pointer;
     }
 
@@ -435,30 +435,30 @@ section{
         display: flex;
         justify-content: space-between;
         position: relative;
-        width: 50px;
-        height: 6px;
+        width: 40px;
+        height: 4px;
         background: #fff;
         box-shadow: 0 2px 5px rgba(0,0,0, .9);
-        transition: .5s;
+        transition: 0.5s;
     }
 
     .hamburger:before,
     .hamburger:after{
         content: '';
         position: absolute;
-        width: 50px;
-        height: 6px;
+        width: 40px;
+        height: 4px;
         background: #fff;
         box-shadow: 0 2px 5px rgba(0,0,0, .9);
-        transition: .5s;
+        transition: 0.5s;
     }
 
     .hamburger:before{
-        top: -16px;
+        top: -14px;
     }
 
     .hamburger:after{
-        top: 16px;
+        top: 14px;
     }
 
     .menuToggle.active .hamburger{

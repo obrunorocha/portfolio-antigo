@@ -101,17 +101,12 @@ nightBtn.addEventListener('click', () => {
   }
 })
 
-
-const icon = document.querySelector('.menuToggle')
-
-icon.addEventListener('click', () =>{
+function toggle(){
+  const icon = document.querySelector('.menuToggle')
   icon.classList.toggle('active')
   socialResp.classList.toggle('menu-open')
   linksResp.classList.toggle('menu-open')
-  console.log(icon)
-  console.log(socialResp)
-  console.log(linksResp)
-})
+}
 
 
 
