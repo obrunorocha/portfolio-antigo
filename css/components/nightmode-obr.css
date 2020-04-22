@@ -38,12 +38,12 @@ input:checked[type="checkbox"]:before{
 
 .daymode{
     background-color: var(--color-daymode);
-    color: #2F363D;
+    color: var(--color-daymodeAside);
 }
 
 .daymode-barra{
     background-color: var(--color-daymodeBarra) !important;
-    color: #2F363D;
+    color: var(--color-daymodeAside);
 }
 
 .daymode-barra a:hover{
