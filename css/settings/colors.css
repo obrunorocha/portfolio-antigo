@@ -1,0 +1,14 @@
+:root{
+    /* Dark mode*/
+    --color-border: #ccc;
+    --color-main: #24292e;
+    --color-daymodeAside: #2f363d;
+    --color-mobileDark: #4c5157;
+    
+    /* Daymode */
+    --color-daymode: #f6f8fa;
+    --color-daymodeBarra: #f0f0f3;
+
+    /* Hover */
+    --color-hover: #00bfff;
+}

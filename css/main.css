@@ -1,0 +1,26 @@
+/* Settings */
+@import './settings/colors.min.css';
+@import './settings/font.min.css';
+
+/* Tools */
+@import './tools/base.min.css';
+
+/* Generic */
+@import './generic/normalize.min.css';
+@import './generic/reset.min.css';
+
+/* Elements */
+@import './elements/base.min.css';
+@import './elements/titles.min.css';
+
+/* Objects */
+@import './objects/aside-obr.min.css';
+
+/* Components */
+@import './components/contactForm-obr.min.css';
+@import './components/menuToggle-obr.min.css';
+@import './components/nav-wrapper-obr.min.css';
+@import './components/nightmode-obr.min.css';
+@import './components/projetos-obr.min.css';
+@import './components/subtitle-obr.min.css';
+

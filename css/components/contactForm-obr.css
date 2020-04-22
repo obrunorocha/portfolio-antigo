@@ -1,0 +1,73 @@
+.contactForm{
+    position: relative;
+    max-width: 900px;
+    display: flex;
+}
+
+.contactForm form{
+    width: 100%;
+}
+
+.contactForm .row100{
+    display: flex;
+    width: 100%;
+}
+
+.contactForm .row100 .inputBx50{
+    width: 50%;
+    margin: 0 20px 0 0;
+}
+
+.contactForm .row100 .inputBx100{
+    width: 100%;
+    margin: 0 20px 0 0;
+}
+
+.contactForm .row100 input,
+.contactForm .row100 textarea{
+    position: relative;
+    font-family: var(--font);
+    font-size: 18px;
+    color: #000;
+    border: none;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px 10px;
+    outline: none;
+    margin: 15px 0;
+    resize: none;
+}
+
+.contactForm .row100 textarea{
+    height: 100px;
+}
+
+.contactForm .row100 input::placeholder,
+.contactForm .row100 textarea::placeholder{
+    color: #000;
+}
+
+.contactForm .row100 input[type="submit"]{
+    font-family: var(--font);
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #fff;
+    color: #000;
+    max-width: 100px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media (max-width: 992px){
+
+    .row100{
+        flex-direction: column;
+    }
+
+    .contactForm .row100 .inputBx50,
+    .contactForm .row100 .inputBx100{
+        width: 100%;
+        margin: 0;
+    }
+}
